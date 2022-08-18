@@ -1,0 +1,103 @@
+.cards-section {
+    /* background: rgb(168,167,159);
+    background: linear-gradient(90deg, rgba(168,167,159,1) 0%, rgba(68,67,65,1) 100%); */
+    background-color:  rgba(0, 0, 0, 0.849);
+    padding-bottom: 10rem;
+}
+.cards-title {
+    padding-top: 130px;
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+}
+.cards-title h2 {
+    float: left;
+    font-size: 4rem;
+    color: white;
+}
+.cards-container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+.card {
+    margin-right: 10px;
+    width: 500px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/cardPlaceholder.jpg');
+}
+#last-card {
+    margin-right: 0;
+}
+.scroll-pane {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto;
+    outline: none;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    -ms-overflow-style: scroll;
+    scrollbar-width: none; 
+}
+#slide, #slideBack {
+    border: none;
+    height: 320px;
+    line-height: 320px;
+    width: 35px;
+    background-color: rgba(24, 24, 24, 0.97);
+    border: 1px solid rgba(128, 128, 128, 0.801);
+    color: white;
+}
+#slideBack {
+    margin-right: 4px;
+}
+#slide {
+    margin-left: 4px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.scroll-pane::-webkit-scrollbar { 
+  display: none;
+}
+.icons {
+    color: white;
+}
+.card-button {
+    float: right;
+    margin: 250px 15px 0 0;
+    font-size: 26px;
+    color: white;
+    background-color:  rgba(24, 24, 24, 0.97);
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
+}
+.card-button:hover {
+    background-color:  rgba(48, 48, 48, 0.97);
+}
+#arts {
+    background-image: url('../assets/artsCard.jpg');
+}
+#sports {
+    background-image: url('../assets/sportsCard.jpg');
+}
+#breweries {
+    background-image: url('../assets/breweryCard.jpg');
+}
+#amusement {
+    background-image: url('../assets/amusementCard.jpg');
+}
+#animals {
+    background-image: url('../assets/animalCard.jpg');
+}
+/* Cards */
