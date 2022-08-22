@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
@@ -29,7 +30,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              TRVL
+              Cincinnati Wonders
               <i class='fab fa-typo3' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -43,34 +44,34 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/About'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  About
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/products'
+                  to='/Contact'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Contact Us!
                 </Link>
               </li>
   
               <li>
                 <Link
-                  to='/sign-up'
+                  to='/Contact'
                   className='nav-links-mobile'
                   onClick={closeMobileMenu}
                 >
-                  Sign Up
+                  Let's Begin!
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+            {button && <Button buttonStyle='btn--outline'>Let's Begin!</Button>}
           </div>
         </nav>
       </>
@@ -78,36 +79,3 @@ function Navbar() {
   }
   
   export default Navbar;
-// const Navbar = () => {
-//     const handleClick = e => {
-//       e.preventDefault();
-//       document.getElementsByClassName('navTrigger')[0].classList.toggle('active');
-//       document.getElementById('mainListDiv').classList.toggle('show_list');
-  
-//     }
-
-//     return (
-//         <header>
-//         <nav className="nav">
-//             <div className="container">
-//                 <div className="logo">
-//                     <NavLink to="/">Home</NavLink>
-//                 </div>
-//                 <div id="mainListDiv" className="main_list">
-//                     <ul className="navlinks">
-//                     <li><NavLink to="./pages/about">About</NavLink></li>
-//                     <li><NavLink to="/"></NavLink></li>
-//                     </ul>
-//                 </div>
-//                 <span onClick={handleClick} className="navTrigger">
-//                     <i></i>
-//                     <i></i>
-//                     <i></i>
-//                 </span>
-//             </div>
-//         </nav>
-//         </header>
-//     )
-// }
-
-// export default Navbar

@@ -21,7 +21,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -59,8 +59,9 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    background: #FB4F14;
+color:#242424;
+transition: all 0.3s ease-out;
   }
   
   .fa-bars {
@@ -108,9 +109,9 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
+      background: #FB4F14;
+color:#242424;
+transition: all 0.3s ease-out;
     }
   
     .navbar-logo {

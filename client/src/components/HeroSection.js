@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Button } from './Button';
 import '../styles/HeroSection.css';
 import Video from '../videos/Cinci.mp4';
 
+export default class HeroSection extends Component {
 
-function HeroSection() {
+  componentDidMount = () => {
+    let heroVideo = document.getElementById('heroVideo');
+    heroVideo.addEventListener('pause', () => {
+      console.log('pause');
+      heroVideo.load();
+    })
+  }
+
+render () {
   return (
     <div className='hero-container'>
 <video src="/videos/Cinci.mp4" autoPlay loop muted />
@@ -29,5 +38,5 @@ function HeroSection() {
     </div>
   )
 }
+}
 
-export default HeroSection
