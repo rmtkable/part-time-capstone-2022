@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.849); 
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/LandingPageImagew.jpg);
+    background-position: center top;
+    background-size:cover;
+}
