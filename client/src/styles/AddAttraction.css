@@ -1,0 +1,95 @@
+div .containerAddPage {        
+    margin-top: 90px;
+    /* margin-bottom: 5vh; */
+    background-image: url('../assets/nightTime.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10vh;
+}
+.nav {
+    z-index: 1;
+}
+form.add {
+    margin-top: 10vh;
+    background-color: #e2e2e2c9;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+input{
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin: 20px 0 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2#header-text {
+    font-size: 50px;
+    text-emphasis: bold;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    padding-top: 6rem;
+}
+
+.form-group {
+    margin: auto;
+    padding: auto;
+}
+
+input .form-control {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn-add {
+    font-size: 26px;
+    color: white;
+    background-color: #303841;
+    width: 250px;
+    height: 60px;
+    transition-duration: 0.5s;
+    margin-top: 3rem;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 0%;
+    border: none;
+    
+} 
+
+.btn-add:hover {
+    transform: scale(0.9);
+}
+
+input {
+    z-index: 1;
+    text-align: center;
+}
+
+
+.select-style {
+    display: block;
+    margin-left: 35%;
+    width: 20%;
+}
+
+.select-style select {
+    width: 150%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+    align-content: center;
+    border-radius: 5px;
+}

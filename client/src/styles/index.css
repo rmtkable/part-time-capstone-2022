@@ -13,34 +13,45 @@ code {
 }
 
 
-/* #widgetIframe{
+#widgetIframe{
   margin-top: 50px;
   width:375px;
   height:520px;
-} */
+}
+
  
+.footer {
+  position: absolute;
+  text-align: center;
+  background-color: #FB4F14;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  letter-spacing: 2.5px; 
+
+}
+
 
 .footer-whole {
-  position: absolute;
   text-align: center;
   background-color: #FB4F14;
   color: white;
   bottom: 0;
   width: 100%;
-  height: 250px;
+  height: 400px;
   overflow: hidden;
   letter-spacing: 2.5px; 
-  margin-top: 300px ;
-}
 
+}
 .footer-contribute {
-  width: 90%;
-  margin: 0 auto;
-  height: 200px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
 }
 
 .footer-contribute-info {
@@ -54,4 +65,5 @@ code {
   width: 250px;
   color: white;
   margin-right: 25px;
+
 }

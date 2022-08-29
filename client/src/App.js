@@ -6,10 +6,12 @@ import Navbar from './components/Navbar';
 import './styles/App.css';
 import Home from './pages/Home';
 import About from './pages/About'
+import Contact from './pages/Contact'
+import Attractions from './pages/Attractions'
 
 
-
-
+import './styles/App.css';
+import './styles/Home.css';
 
 export default class App extends Component {
     render() {
@@ -19,7 +21,8 @@ export default class App extends Component {
           <Navbar />
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
-          {/* <Route path='/Contact' component={Contact}/> */}
+          <Route path='/Contact' component={Contact}/>
+          <Route path='/Attractions' component={Attractions} />
         </Router>
       </div>
     );

@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/index.css";
 
 const FooterWhole =() => (
+    <div className="footer">
     <div className="footer-whole">
         <div className="footer-contribute">
             <div className="footer-capstone">
@@ -19,6 +20,7 @@ const FooterWhole =() => (
                 <a href="https://github.com/cawilk" rel="noreferrer" target="_blank">GitHub</a>
             </div>
         </div>
+    </div>
     </div>
 )
 
