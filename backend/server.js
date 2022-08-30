@@ -25,7 +25,7 @@ connection.once('open', () => {
 const attractionsRouter = require('./routes/attractions')
 const contactRouter = require('./routes/contact')
 
-app.use('/attractions', attractionsRouter)
+app.use('/Attractions', attractionsRouter)
 app.use('/contact', contactRouter)
 app.use(express.static(path.join(__dirname, '../build')));
 
